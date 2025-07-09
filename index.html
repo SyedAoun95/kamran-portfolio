@@ -110,7 +110,7 @@
 			</nav>      
 		<!-- END NAVBAR -->
 		
-	<!-- Hero Area Start -->
+<!-- Hero Area Start -->
 <section id="home" class="dark_bg">
   <div id="particles-js"></div>
   <div class="container">
@@ -131,15 +131,25 @@
           <a href="#" class="btn btn-secondary banner_btn">Hire Me</a>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6" style="text-align:center; padding-left:20px; padding-top: 100px;"> <!-- add left padding -->
+      <div class="col-lg-6 col-md-6" style="text-align:center; padding-left:20px; padding-top:100px;" id="hero-image-column"> <!-- desktop padding-top -->
         <div class="banner-images">
-          <img src="assets/img/hero2.png" alt="" style="width:320px; height:auto; background: #000;"> <!-- increased size -->
+          <img src="assets/img/hero.png" alt="" style="width:320px; height:auto;"> <!-- increased size -->
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  /* Reduce spacing on mobile only */
+  @media (max-width: 768px) {
+    #hero-image-column {
+      padding-top: 40px !important; /* reduce top padding on mobile */
+    }
+  }
+</style>
 <!-- Hero Area End -->
+
 
 		
 	
